@@ -16,5 +16,6 @@ int main()
 	cout << First / Second << endl;
 	cout << First % Second << endl;
 
+
 	return 0;
 }
