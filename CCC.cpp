@@ -10,7 +10,11 @@ int main()
 	cin >> First ;
 	cin >> Second ;
 
-	cout << First + Second - First * Second / First % Second << endl;
-	
+	cout << First + Second << endl;
+	cout << First - Second << endl;
+	cout << First * Second << endl;
+	cout << First / Second << endl;
+	cout << First % Second << endl;
+
 	return 0;
 }
