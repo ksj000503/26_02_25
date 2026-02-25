@@ -51,8 +51,8 @@ int main()
 	
 	bool Result1 = true;
 	bool Result2 = false;
-
-	// 연산자 우선 순위
+	
+	// 연산자 우선 순위, 산술, 논리, 비교
 	// () 첫번째
 
 	// and 둘다 참이면
@@ -65,12 +65,23 @@ int main()
 	{
 		cout << "안녕2" << endl;
 	}
-	// or 두 조건 중 하나만 참이면
+	// not 두 조건 중 하나만 거짓이면
 	if (!Result1)
 	{
 		cout << "안녕3" << endl;
 	}
 	
+	// char
+	// 아스키 코드로 저장 'A'=65로 저장하지만
+	// cout 등으로 불러올땐 A로 표현
+	char Temp = 'A';
+	// chat Temp = 'A' + 1;
+	// 저장시 65+1 =66
+	// 출력시 아스키코드가 66인 B 출력
+
+	//float
+	float A = 1.0f;
+
 	
 	
 	
